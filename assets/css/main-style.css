@@ -1,0 +1,124 @@
+html, body {
+
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+header {
+
+	width: 100%;
+	padding: 20px 0;
+
+	background-color: #999;
+	margin-bottom: 100px;
+}
+
+header h1 {
+
+	padding-left: 20px;
+	margin: 0;
+	font-size: .9em;
+	color: #FFF;
+}
+
+footer {
+
+	background-color: #999;	
+	width: 100%;
+	padding: 5px 0;
+
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+}
+
+footer h2 {
+
+	margin: 5px;
+	font-size: .8em;
+	color: #FFF;
+}
+
+form input {
+
+	display: inline-block;
+	padding: 0 5%;
+	height: 40px;
+	outline: none;
+	border: 1px solid #555;
+}
+form label {
+
+	display: none;
+}
+
+form button {
+
+	display: inline-block;
+	height: 40px;
+	padding: 0 2%;
+	margin: 0;
+	outline: none;
+	border: none;
+}
+
+.alert {
+
+	color: #ea3131;
+}
+
+.list {
+
+	padding: 5px 10px;
+	background-color: #5268d9;
+	margin: 0;
+	border: 1px solid #FFF;
+	color: #FFF;
+}
+
+/*
+
+.form_container {
+
+	width: 500px;
+	padding: 50px;
+	border: 5px solid #000;
+	margin: 0 auto;
+	display: block;
+}
+
+form {
+
+	display: block;
+	width: 100%;
+
+}
+
+form input {
+
+	display: inline-block;
+	width: 50%;
+	padding: 0 5%;
+	margin-left: 10%;
+	height: 40px;
+	outline: none;
+	border: 1px solid #555;
+}
+
+form label {
+
+	display: none;
+}
+
+form button {
+
+	display: inline-block;
+	width: 20%;
+	height: 40px;
+	margin: 0;
+	outline: none;
+	border: none;
+}
